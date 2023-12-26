@@ -14,7 +14,7 @@ import WeatherDTO from "./src/type/WeatherDTO";
 export default function App() {
   const [searchText, setSearchText] = useState("");
   const [name, setName] = useState<string>("Bangkok");
-  const apiKey = "5049f0de99cda54c21b9d75b67ffb41a";
+  const apiKey = "";
   const [city, setCity] = useState<WeatherDTO | null>(null);
 
   const handleSearchPress = () => {
